@@ -1,0 +1,1841 @@
+<!doctype html>
+
+
+
+  
+
+
+<html class="theme-next mist use-motion" lang="zh-CN">
+<head><meta name="generator" content="Hexo 3.9.0">
+  <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform">
+<meta http-equiv="Cache-Control" content="no-siteapp">
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css">
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css">
+
+<link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css">
+
+
+  <meta name="keywords" content="中南大学|清华大学软件学院唐磊的博客, 主攻软件工程, 数据挖掘, 这里记录了我的学习, 生活和工作">
+
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="唐磊的个人博客" type="application/atom+xml">
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.1.0">
+
+
+
+
+
+
+<meta name="description" content="中南大学|清华大学软件学院唐磊的博客, 后台开发, 主攻软件工程, 数据挖掘, 这里记录了我的学习, 生活和工作">
+<meta property="og:type" content="website">
+<meta property="og:title" content="唐磊的个人博客">
+<meta property="og:url" content="https://www.tanglei.name/page/50/index.html">
+<meta property="og:site_name" content="唐磊的个人博客">
+<meta property="og:description" content="中南大学|清华大学软件学院唐磊的博客, 后台开发, 主攻软件工程, 数据挖掘, 这里记录了我的学习, 生活和工作">
+<meta property="og:locale" content="zh-CN">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="唐磊的个人博客">
+<meta name="twitter:description" content="中南大学|清华大学软件学院唐磊的博客, 后台开发, 主攻软件工程, 数据挖掘, 这里记录了我的学习, 生活和工作">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Mist',
+    sidebar: {"position":"left","display":"always"},
+    fancybox: true,
+    motion: true,
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="https://www.tanglei.name/page/50/">
+
+
+
+
+
+  <title> 唐磊的个人博客 </title>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-CN">
+
+  
+
+
+
+  <script type="text/javascript">
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?f0117177475f54027bfcaceb8d668cee";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  <div class="container one-collumn sidebar-position-left 
+   page-home 
+ ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-meta ">
+  
+
+  <div class="custom-logo-site-title">
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <span class="site-title">唐磊的个人博客</span>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+    
+      <h1 class="site-subtitle" itemprop="description">记录我的学习、生活、工作。</h1>
+    
+</div>
+
+<div class="site-nav-toggle">
+  <button>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+  </button>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br>
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br>
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br>
+            
+            关于
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br>
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br>
+            
+            标签
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+  <section id="posts" class="posts-expand">
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <link itemprop="mainEntityOfPage" href="https://www.tanglei.name/blog/java-native-demo.html">
+
+  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="tanglei">
+    <meta itemprop="description" content>
+    <meta itemprop="image" content="/tx.jpg">
+  </span>
+
+  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="唐磊的个人博客">
+    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
+      <img style="display:none;" itemprop="url image" alt="唐磊的个人博客" src>
+    </span>
+  </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h2 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/blog/java-native-demo.html" itemprop="url">
+                  java native例子
+                </a>
+              
+            
+          </h2>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2010-12-21T15:33:37+00:00">
+                2010-12-21
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/课程学习/" itemprop="url" rel="index">
+                    <span itemprop="name">课程学习</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/blog/java-native-demo.html#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="blog/java-native-demo.html" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+          研究了下java native方法的例子。网上看了下资料。
+首先看下什么是Native method，参考了下http://www.80&#215;86.cn/article.asp?id=1448上的文章
+Simply put, a native method is the Java interf
+          ...
+          <!--noindex-->
+          <div class="post-more-link text-center">
+            <a class="btn" href="/blog/java-native-demo.html#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <link itemprop="mainEntityOfPage" href="https://www.tanglei.name/blog/exam_j2ee.html">
+
+  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="tanglei">
+    <meta itemprop="description" content>
+    <meta itemprop="image" content="/tx.jpg">
+  </span>
+
+  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="唐磊的个人博客">
+    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
+      <img style="display:none;" itemprop="url image" alt="唐磊的个人博客" src>
+    </span>
+  </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h2 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/blog/exam_j2ee.html" itemprop="url">
+                  J2EE考试有感
+                </a>
+              
+            
+          </h2>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2010-12-21T14:58:16+00:00">
+                2010-12-21
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/课程学习/" itemprop="url" rel="index">
+                    <span itemprop="name">课程学习</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/blog/exam_j2ee.html#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="blog/exam_j2ee.html" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+          唉，今天的J2EE考完了。效果不咋滴呀。郁闷的是，试卷发下来的时候，看了后面的简答题有二选一的题目滴，还特意用笔勾出来了。但最后一做起来，感觉简单题还比较顺手吧(当然出去了那个可恶的dwr配置题目)，就忘记了居然。总体来说吧，题目都是金杰自己出的题目，当然可能水平就……不是那么专业了，有的题目是模棱
+          ...
+          <!--noindex-->
+          <div class="post-more-link text-center">
+            <a class="btn" href="/blog/exam_j2ee.html#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <link itemprop="mainEntityOfPage" href="https://www.tanglei.name/blog/wodpress_youhua.html">
+
+  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="tanglei">
+    <meta itemprop="description" content>
+    <meta itemprop="image" content="/tx.jpg">
+  </span>
+
+  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="唐磊的个人博客">
+    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
+      <img style="display:none;" itemprop="url image" alt="唐磊的个人博客" src>
+    </span>
+  </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h2 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/blog/wodpress_youhua.html" itemprop="url">
+                  为Wordpress添加评论表情和显示评论头像
+                </a>
+              
+            
+          </h2>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2010-12-19T13:57:19+00:00">
+                2010-12-19
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/经验技巧/" itemprop="url" rel="index">
+                    <span itemprop="name">经验技巧</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/blog/wodpress_youhua.html#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="blog/wodpress_youhua.html" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+          看到人家blog搞得比较炫，对比下自己的。比较朴实了。所以今天优化了下我的blog.评论添加了表情支持。和显示评论增加了头像。期间也遇到了不少问题。网上一查WordPress 评论头像设置方法。一大堆。我也按照方法设置了。注册了gravatar头像。然后去评论人家blog时，就能显示到我的头像了。但
+          ...
+          <!--noindex-->
+          <div class="post-more-link text-center">
+            <a class="btn" href="/blog/wodpress_youhua.html#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <link itemprop="mainEntityOfPage" href="https://www.tanglei.name/blog/jdbc_4types.html">
+
+  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="tanglei">
+    <meta itemprop="description" content>
+    <meta itemprop="image" content="/tx.jpg">
+  </span>
+
+  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="唐磊的个人博客">
+    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
+      <img style="display:none;" itemprop="url image" alt="唐磊的个人博客" src>
+    </span>
+  </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h2 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/blog/jdbc_4types.html" itemprop="url">
+                  JDBC的4种驱动类型
+                </a>
+              
+            
+          </h2>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2010-12-19T08:54:47+00:00">
+                2010-12-19
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/课程学习/" itemprop="url" rel="index">
+                    <span itemprop="name">课程学习</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/blog/jdbc_4types.html#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="blog/jdbc_4types.html" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+             今天看金杰的课件，JDBC的4种驱动类型，啥，不懂。google了下。明白真相了： Java中的JDBC驱动可以分为四种类型，包括JDBC-ODBC桥、本地API驱动、网络协议驱动和本地协议驱动。(课件上如是说：JDBC-ODBC桥驱动+纯Java驱动+本地API部分Java驱动+JDBC网络
+          ...
+          <!--noindex-->
+          <div class="post-more-link text-center">
+            <a class="btn" href="/blog/jdbc_4types.html#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <link itemprop="mainEntityOfPage" href="https://www.tanglei.name/blog/google_my_source.html">
+
+  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="tanglei">
+    <meta itemprop="description" content>
+    <meta itemprop="image" content="/tx.jpg">
+  </span>
+
+  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="唐磊的个人博客">
+    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
+      <img style="display:none;" itemprop="url image" alt="唐磊的个人博客" src>
+    </span>
+  </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h2 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/blog/google_my_source.html" itemprop="url">
+                  google收录本机搭建环境的web资源
+                </a>
+              
+            
+          </h2>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2010-12-19T06:36:51+00:00">
+                2010-12-19
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/经验技巧/" itemprop="url" rel="index">
+                    <span itemprop="name">经验技巧</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/blog/google_my_source.html#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="blog/google_my_source.html" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+          前两天在本机用apache搭建了php的web服务器，然后用了phpwind建站用于本机测试。期望与本机添加好数据后上传至Internet。找了几个朋友一起添加了数据。现在已经上传至internet。并与http://www.i3zhai.com绑定。期间向google submit了url。一定时
+          ...
+          <!--noindex-->
+          <div class="post-more-link text-center">
+            <a class="btn" href="/blog/google_my_source.html#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <link itemprop="mainEntityOfPage" href="https://www.tanglei.name/blog/classes_j2ee.html">
+
+  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="tanglei">
+    <meta itemprop="description" content>
+    <meta itemprop="image" content="/tx.jpg">
+  </span>
+
+  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="唐磊的个人博客">
+    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
+      <img style="display:none;" itemprop="url image" alt="唐磊的个人博客" src>
+    </span>
+  </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h2 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/blog/classes_j2ee.html" itemprop="url">
+                  J2EE考点
+                </a>
+              
+            
+          </h2>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2010-12-18T11:34:55+00:00">
+                2010-12-18
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/课程学习/" itemprop="url" rel="index">
+                    <span itemprop="name">课程学习</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/blog/classes_j2ee.html#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="blog/classes_j2ee.html" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+          1、 JAVA的环境配置
+a)         Java_HOME:  D:\jdk1.5.0
+b)        PATH:  D:\jdk1.5.0\bin;
+c)         CLASSPATH: .; D:\jdk1.5.0\lib\tools.jar; D:\jdk1.5.0\jre\
+          ...
+          <!--noindex-->
+          <div class="post-more-link text-center">
+            <a class="btn" href="/blog/classes_j2ee.html#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <link itemprop="mainEntityOfPage" href="https://www.tanglei.name/blog/java_data.html">
+
+  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="tanglei">
+    <meta itemprop="description" content>
+    <meta itemprop="image" content="/tx.jpg">
+  </span>
+
+  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="唐磊的个人博客">
+    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
+      <img style="display:none;" itemprop="url image" alt="唐磊的个人博客" src>
+    </span>
+  </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h2 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/blog/java_data.html" itemprop="url">
+                  再看java数据类型
+                </a>
+              
+            
+          </h2>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2010-12-18T08:24:38+00:00">
+                2010-12-18
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/经验技巧/" itemprop="url" rel="index">
+                    <span itemprop="name">经验技巧</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/blog/java_data.html#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="blog/java_data.html" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          <p>在Java语言中，数据类型分为基本类型和对象类型。其中对象类型继承Object类，按照存储对象的内存模型进行数据存储。对象引用存储在内存栈上，而对象本身的值存储在内存堆上。这个概念上没有什么值得需要注意的地方。这里，我想说的主要还是java的基本数据类型。</p>
+<p>一般来说也就是比较公认的java包括8中基本类型(有的人也说void是一种类型)，从类型上又可分为：布尔型、字符型和数值型；其中数值型又可分为整数和实数2种。</p>
+<table class="MsoNormalTable" style="border-collapse: collapse;" border="1" cellspacing="0" cellpadding="0" width="650"><br>  <tr style="height: 1pt;"><br>    <td style="border-right: #f4f4f4; padding-right: 5.4pt; border-top: black 1.5pt solid; padding-left: 5.4pt; padding-bottom: 0cm; border-left: black 1.5pt solid; width: 14.2pt; padding-top: 0cm; border-bottom: #f4f4f4; height: 1pt; background-color: transparent;" width="19" valign="top"><br>      <p style="text-align: center;"><br>        <span style="font-size: 10.5pt;" lang="EN-US"><span> </span></span><br>      </p><br>    </td><br><br>    <td style="border-right: #f4f4f4; padding-right: 5.4pt; border-top: black 1.5pt solid; padding-left: 5.4pt; padding-bottom: 0cm; border-left: #f4f4f4; width: 460.7pt; padding-top: 0cm; border-bottom: black 1pt solid; height: 1pt; background-color: transparent;" colspan="8" width="614" valign="top"><br>      <p style="text-align: center;"><br>        <span style="font-size: 10.5pt;" lang="EN-US"><span> </span></span><br>      </p><br>    </td><br><br>    <td style="border-right: #f4f4f4; padding-right: 5.4pt; border-top: black 1.5pt solid; padding-left: 5.4pt; padding-bottom: 0cm; border-left: #f4f4f4; width: 12.45pt; padding-top: 0cm; border-bottom: #f4f4f4; height: 1pt; background-color: transparent;" rowspan="11" width="17" valign="top"><br>      <p style="text-align: center;"><br>        <span style="font-size: 10.5pt;" lang="EN-US"><span> </span></span><br>      </p><br><br>      <p style="text-align: center;"><br>        &nbsp;<br>      </p><br><br>      <p style="text-align: center;"><br>        &nbsp;<br>      </p><br><br>      <p style="text-align: center;"><br>        &nbsp;<br>      </p><br><br>      <p style="text-align: center;"><br>        &nbsp;<br>      </p><br><br>      <p style="text-align: center;"><br>        <span style="font-size: 10.5pt;" lang="EN-US"><span><br> </span></span><br>      </p><br>    </td><br>  </tr><br><br>  <tr style="height: 1pt;"><br>    <td style="border-right: black 1pt solid; padding-right: 5.4pt; border-top: #f4f4f4; padding-left: 5.4pt; padding-bottom: 0cm; border-left: black 1.5pt solid; width: 14.2pt; padding-top: 0cm; border-bottom: #f4f4f4; height: 1pt; background-color: transparent;" rowspan="9" width="19" valign="top"><br>      <p style="text-align: center;"><br>        <span style="font-size: 10.5pt;" lang="EN-US"><span> </span></span><br>      </p><br>    </td><br><br>    <td style="border-right: black 1pt solid; padding-right: 5.4pt; border-top: #f4f4f4; padding-left: 5.4pt; padding-bottom: 0cm; border-left: #f4f4f4; width: 42.55pt; padding-top: 0cm; border-bottom: black 1pt solid; height: 1pt; background-color: transparent;" colspan="2" width="57" valign="top"><br>      <p style="text-align: center;"><br>        <span style="font-size: 10.5pt;"><span>分类<span lang="EN-US"> </span></span></span><br>      </p><br>    </td><br><br>    <td style="border-right: black 1pt solid; padding-right: 5.4pt; border-top: black 1pt solid; padding-left: 5.4pt; padding-bottom: 0cm; border-left: #f4f4f4; width: 70.85pt; padding-top: 0cm; border-bottom: black 1pt solid; height: 1pt; background-color: transparent;" width="94" valign="top"><br>      <p style="text-align: center;"><br>        <span style="font-size: 10.5pt;"><span>基本类型<span lang="EN-US"> </span></span></span><br>      </p><br>    </td><br><br>    <td style="border-right: black 1pt solid; padding-right: 5.4pt; border-top: black 1pt solid; padding-left: 5.4pt; padding-bottom: 0cm; border-left: #f4f4f4; width: 49.6pt; padding-top: 0cm; border-bottom: black 1pt solid; height: 1pt; background-color: transparent;" width="66" valign="top"><br>      <p style="text-align: center;"><br>        <span style="font-size: 10.5pt;"><span>大小</span></span><br>      </p><br>    </td><br><br>    <td style="border-right: black 1pt solid; padding-right: 5.4pt; border-top: black 1pt solid; padding-left: 5.4pt; padding-bottom: 0cm; border-left: #f4f4f4; width: 63.8pt; padding-top: 0cm; border-bottom: black 1pt solid; height: 1pt; background-color: transparent;" width="85" valign="top"><br>      <p style="text-align: center;"><br>        <span style="font-size: 10.5pt;"><span>最小值</span></span><br>      </p><br>    </td><br><br>    <td style="border-right: black 1pt solid; padding-right: 5.4pt; border-top: black 1pt solid; padding-left: 5.4pt; padding-bottom: 0cm; border-left: #f4f4f4; width: 3cm; padding-top: 0cm; border-bottom: black 1pt solid; height: 1pt; background-color: transparent;" width="113" valign="top"><br>      <p style="text-align: center;"><br>        <span style="font-size: 10.5pt;"><span>最大值</span></span><br>      </p><br>    </td><br><br>    <td style="border-right: black 1pt solid; padding-right: 5.4pt; border-top: black 1pt solid; padding-left: 5.4pt; padding-bottom: 0cm; border-left: #f4f4f4; width: 77.95pt; padding-top: 0cm; border-bottom: black 1pt solid; height: 1pt; background-color: transparent;" width="104" valign="top"><br>      <p style="text-align: center;"><br>        <span style="font-size: 10.5pt;"><span>包装器类型</span></span><br>      </p><br>    </td><br><br>    <td style="border-right: black 1pt solid; padding-right: 5.4pt; border-top: black 1pt solid; padding-left: 5.4pt; padding-bottom: 0cm; border-left: #f4f4f4; width: 70.9pt; padding-top: 0cm; border-bottom: black 1pt solid; height: 1pt; background-color: transparent;" width="95" valign="top"><br>      <p style="text-align: center;"><br>        <span style="font-size: 10.5pt;"><span>默认值</span></span><br>      </p><br>    </td><br>  </tr><br><br>  <tr style="height: 1pt;"><br>    <td style="border-right: black 1pt solid; padding-right: 5.4pt; border-top: #f4f4f4; padding-left: 5.4pt; padding-bottom: 0cm; border-left: #f4f4f4; width: 42.55pt; padding-top: 0cm; border-bottom: black 1pt solid; height: 1pt; background-color: transparent;" colspan="2" width="57" valign="top"><br>      <p style="text-align: center;"><br>        <span style="font-size: 10.5pt;"><span>布尔</span></span><br>      </p><br>    </td><br><br>    <td style="border-right: black 1pt solid; padding-right: 5.4pt; border-top: #f4f4f4; padding-left: 5.4pt; padding-bottom: 0cm; border-left: #f4f4f4; width: 70.85pt; padding-top: 0cm; border-bottom: black 1pt solid; height: 1pt; background-color: transparent;" width="94" valign="top"><br>      <span style="font-size: 10.5pt;" lang="EN-US"><span>boolean</span></span><br>    </td><br><br>    <td style="border-right: black 1pt solid; padding-right: 5.4pt; border-top: #f4f4f4; padding-left: 5.4pt; padding-bottom: 0cm; border-left: #f4f4f4; width: 49.6pt; padding-top: 0cm; border-bottom: black 1pt solid; height: 1pt; background-color: transparent;" width="66" valign="top"><br>      <span style="font-size: 10.5pt;" lang="EN-US"><span>&#8211;</span></span><br>    </td><br><br>    <td style="border-right: black 1pt solid; padding-right: 5.4pt; border-top: #f4f4f4; padding-left: 5.4pt; padding-bottom: 0cm; border-left: #f4f4f4; width: 63.8pt; padding-top: 0cm; border-bottom: black 1pt solid; height: 1pt; background-color: transparent;" width="85" valign="top"><br>      <span style="font-size: 10.5pt;" lang="EN-US"><span>&#8211;</span></span><br>    </td><br><br>    <td style="border-right: black 1pt solid; padding-right: 5.4pt; border-top: #f4f4f4; padding-left: 5.4pt; padding-bottom: 0cm; border-left: #f4f4f4; width: 3cm; padding-top: 0cm; border-bottom: black 1pt solid; height: 1pt; background-color: transparent;" width="113" valign="top"><br>      <span style="font-size: 10.5pt;" lang="EN-US"><span>&#8211;</span></span><br>    </td><br><br>    <td style="border-right: black 1pt solid; padding-right: 5.4pt; border-top: #f4f4f4; padding-left: 5.4pt; padding-bottom: 0cm; border-left: #f4f4f4; width: 77.95pt; padding-top: 0cm; border-bottom: black 1pt solid; height: 1pt; background-color: transparent;" width="104" valign="top"><br>      <span style="font-size: 10.5pt;" lang="EN-US"><span>Boolean</span></span><br>    </td><br><br>    <td style="border-right: black 1pt solid; padding-right: 5.4pt; border-top: #f4f4f4; padding-left: 5.4pt; padding-bottom: 0cm; border-left: #f4f4f4; width: 70.9pt; padding-top: 0cm; border-bottom: black 1pt solid; height: 1pt; background-color: transparent;" width="95" valign="top"><br>      <span style="font-size: 10.5pt;" lang="EN-US"><span>false</span></span><br>    </td><br>  </tr><br><br>  <tr style="height: 1pt;"><br>    <td style="border-right: black 1pt solid; padding-right: 5.4pt; border-top: #f4f4f4; padding-left: 5.4pt; padding-bottom: 0cm; border-left: #f4f4f4; width: 42.55pt; padding-top: 0cm; border-bottom: black 1pt solid; height: 1pt; background-color: transparent;" colspan="2" width="57" valign="top"><br>      <p style="text-align: center;"><br>        <span style="font-size: 10.5pt;"><span>字符</span></span><br>      </p><br>    </td><br><br>    <td style="border-right: black 1pt solid; padding-right: 5.4pt; border-top: #f4f4f4; padding-left: 5.4pt; padding-bottom: 0cm; border-left: #f4f4f4; width: 70.85pt; padding-top: 0cm; border-bottom: black 1pt solid; height: 1pt; background-color: transparent;" width="94" valign="top"><br>      <span style="font-size: 10.5pt;" lang="EN-US"><span>char</span></span><br>    </td><br><br>    <td style="border-right: black 1pt solid; padding-right: 5.4pt; border-top: #f4f4f4; padding-left: 5.4pt; padding-bottom: 0cm; border-left: #f4f4f4; width: 49.6pt; padding-top: 0cm; border-bottom: black 1pt solid; height: 1pt; background-color: transparent;" width="66" valign="top"><br>      <span style="font-size: 10.5pt;" lang="EN-US"><span>16-bit</span></span><br>    </td><br><br>    <td style="border-right: black 1pt solid; padding-right: 5.4pt; border-top: #f4f4f4; padding-left: 5.4pt; padding-bottom: 0cm; border-left: #f4f4f4; width: 63.8pt; padding-top: 0cm; border-bottom: black 1pt solid; height: 1pt; background-color: transparent;" width="85" valign="top"><br>      <span>‘\u0000’</span><br>    </td><br><br>    <td style="border-right: black 1pt solid; padding-right: 5.4pt; border-top: #f4f4f4; padding-left: 5.4pt; padding-bottom: 0cm; border-left: #f4f4f4; width: 3cm; padding-top: 0cm; border-bottom: black 1pt solid; height: 1pt; background-color: transparent;" width="113" valign="top"><br>      <span>‘\uFFFF’</span><br>    </td><br><br>    <td style="border-right: black 1pt solid; padding-right: 5.4pt; border-top: #f4f4f4; padding-left: 5.4pt; padding-bottom: 0cm; border-left: #f4f4f4; width: 77.95pt; padding-top: 0cm; border-bottom: black 1pt solid; height: 1pt; background-color: transparent;" width="104" valign="top"><br>      <span style="font-size: 10.5pt;" lang="EN-US"><span>Character</span></span><br>    </td><br><br>    <td style="border-right: black 1pt solid; padding-right: 5.4pt; border-top: #f4f4f4; padding-left: 5.4pt; padding-bottom: 0cm; border-left: #f4f4f4; width: 70.9pt; padding-top: 0cm; border-bottom: black 1pt solid; height: 1pt; background-color: transparent;" width="95" valign="top"><br>      <span>‘\u0000’</span><br>    </td><br>  </tr><br><br>  <tr style="height: 1pt;"><br>    <td style="border-right: black 1pt solid; padding-right: 5.4pt; border-top: #f4f4f4; padding-left: 5.4pt; padding-bottom: 0cm; border-left: #f4f4f4; width: 21.25pt; padding-top: 0cm; border-bottom: black 1pt solid; height: 1pt; background-color: transparent;" rowspan="6" width="28" valign="top"><br>      <p style="text-align: center;"><br>        <span style="font-size: 10.5pt;" lang="EN-US"><span> </span></span><br>      </p><br><br>      <p style="text-align: center;"><br>        &nbsp;<br>      </p><br><br>      <p style="text-align: center;"><br>        <span style="font-size: 10.5pt;"><span>数值</span></span><br>      </p><br>    </td><br><br>    <td style="border-right: black 1pt solid; padding-right: 5.4pt; border-top: black 1pt solid; padding-left: 5.4pt; padding-bottom: 0cm; border-left: #f4f4f4; width: 21.3pt; padding-top: 0cm; border-bottom: black 1pt solid; height: 1pt; background-color: transparent;" rowspan="4" width="28" valign="top"><br>      <span style="font-size: 10.5pt;"><span>整数</span></span><br>    </td><br><br>    <td style="border-right: black 1pt solid; padding-right: 5.4pt; border-top: #f4f4f4; padding-left: 5.4pt; padding-bottom: 0cm; border-left: #f4f4f4; width: 70.85pt; padding-top: 0cm; border-bottom: black 1pt solid; height: 1pt; background-color: transparent;" width="94" valign="top"><br>      <span style="font-size: 10.5pt;" lang="EN-US"><span>byte</span></span><br>    </td><br><br>    <td style="border-right: black 1pt solid; padding-right: 5.4pt; border-top: #f4f4f4; padding-left: 5.4pt; padding-bottom: 0cm; border-left: #f4f4f4; width: 49.6pt; padding-top: 0cm; border-bottom: black 1pt solid; height: 1pt; background-color: transparent;" width="66" valign="top"><br>      <span style="font-size: 10.5pt;" lang="EN-US"><span>8bits</span></span><br>    </td><br><br>    <td style="border-right: black 1pt solid; padding-right: 5.4pt; border-top: #f4f4f4; padding-left: 5.4pt; padding-bottom: 0cm; border-left: #f4f4f4; width: 63.8pt; padding-top: 0cm; border-bottom: black 1pt solid; height: 1pt; background-color: transparent;" width="85" valign="top"><br>      <span style="font-size: 10.5pt;" lang="EN-US"><span>-128</span></span><br>    </td><br><br>    <td style="border-right: black 1pt solid; padding-right: 5.4pt; border-top: #f4f4f4; padding-left: 5.4pt; padding-bottom: 0cm; border-left: #f4f4f4; width: 3cm; padding-top: 0cm; border-bottom: black 1pt solid; height: 1pt; background-color: transparent;" width="113" valign="top"><br>      <span style="font-size: 10.5pt;" lang="EN-US"><span>+127</span></span><br>    </td><br><br>    <td style="border-right: black 1pt solid; padding-right: 5.4pt; border-top: #f4f4f4; padding-left: 5.4pt; padding-bottom: 0cm; border-left: #f4f4f4; width: 77.95pt; padding-top: 0cm; border-bottom: black 1pt solid; height: 1pt; background-color: transparent;" width="104" valign="top"><br>      <span style="font-size: 10.5pt;" lang="EN-US"><span>Byte</span></span><br>    </td><br><br>    <td style="border-right: black 1pt solid; padding-right: 5.4pt; border-top: #f4f4f4; padding-left: 5.4pt; padding-bottom: 0cm; border-left: #f4f4f4; width: 70.9pt; padding-top: 0cm; border-bottom: black 1pt solid; height: 1pt; background-color: transparent;" width="95" valign="top"><br>      <span style="font-size: 10.5pt;" lang="EN-US"><span></span></span><br>    </td><br>  </tr><br><br>  <tr style="height: 1pt;"><br>    <td style="border-right: black 1pt solid; padding-right: 5.4pt; border-top: #f4f4f4; padding-left: 5.4pt; padding-bottom: 0cm; border-left: #f4f4f4; width: 70.85pt; padding-top: 0cm; border-bottom: black 1pt solid; height: 1pt; background-color: transparent;" width="94" valign="top"><br>      <span style="font-size: 10.5pt;" lang="EN-US"><span>short</span></span><br>    </td><br><br>    <td style="border-right: black 1pt solid; padding-right: 5.4pt; border-top: #f4f4f4; padding-left: 5.4pt; padding-bottom: 0cm; border-left: #f4f4f4; width: 49.6pt; padding-top: 0cm; border-bottom: black 1pt solid; height: 1pt; background-color: transparent;" width="66" valign="top"><br>      <span style="font-size: 10.5pt;" lang="EN-US"><span>16bits</span></span><br>    </td><br><br>    <td style="border-right: black 1pt solid; padding-right: 5.4pt; border-top: #f4f4f4; padding-left: 5.4pt; padding-bottom: 0cm; border-left: #f4f4f4; width: 63.8pt; padding-top: 0cm; border-bottom: black 1pt solid; height: 1pt; background-color: transparent;" width="85" valign="top"><br>      <span style="font-size: 10.5pt;" lang="EN-US"><span>-2<sup>15</sup></span></span><br>    </td><br><br>    <td style="border-right: black 1pt solid; padding-right: 5.4pt; border-top: #f4f4f4; padding-left: 5.4pt; padding-bottom: 0cm; border-left: #f4f4f4; width: 3cm; padding-top: 0cm; border-bottom: black 1pt solid; height: 1pt; background-color: transparent;" width="113" valign="top"><br>      <span style="font-size: 10.5pt;" lang="EN-US"><span>+2<sup>15</sup>-1</span></span><br>    </td><br><br>    <td style="border-right: black 1pt solid; padding-right: 5.4pt; border-top: #f4f4f4; padding-left: 5.4pt; padding-bottom: 0cm; border-left: #f4f4f4; width: 77.95pt; padding-top: 0cm; border-bottom: black 1pt solid; height: 1pt; background-color: transparent;" width="104" valign="top"><br>      <span style="font-size: 10.5pt;" lang="EN-US"><span>Short</span></span><br>    </td><br><br>    <td style="border-right: black 1pt solid; padding-right: 5.4pt; border-top: #f4f4f4; padding-left: 5.4pt; padding-bottom: 0cm; border-left: #f4f4f4; width: 70.9pt; padding-top: 0cm; border-bottom: black 1pt solid; height: 1pt; background-color: transparent;" width="95" valign="top"><br>      <span style="font-size: 10.5pt;" lang="EN-US"><span></span></span><br>    </td><br>  </tr><br><br>  <tr style="height: 1pt;"><br>    <td style="border-right: black 1pt solid; padding-right: 5.4pt; border-top: #f4f4f4; padding-left: 5.4pt; padding-bottom: 0cm; border-left: #f4f4f4; width: 70.85pt; padding-top: 0cm; border-bottom: black 1pt solid; height: 1pt; background-color: transparent;" width="94" valign="top"><br>      <span style="font-size: 10.5pt;" lang="EN-US"><span>int</span></span><br>    </td><br><br>    <td style="border-right: black 1pt solid; padding-right: 5.4pt; border-top: #f4f4f4; padding-left: 5.4pt; padding-bottom: 0cm; border-left: #f4f4f4; width: 49.6pt; padding-top: 0cm; border-bottom: black 1pt solid; height: 1pt; background-color: transparent;" width="66" valign="top"><br>      <span style="font-size: 10.5pt;" lang="EN-US"><span>32bits</span></span><br>    </td><br><br>    <td style="border-right: black 1pt solid; padding-right: 5.4pt; border-top: #f4f4f4; padding-left: 5.4pt; padding-bottom: 0cm; border-left: #f4f4f4; width: 63.8pt; padding-top: 0cm; border-bottom: black 1pt solid; height: 1pt; background-color: transparent;" width="85" valign="top"><br>      <span style="font-size: 10.5pt;" lang="EN-US"><span>-2<strong><sup>31</sup></strong></span></span><br>    </td><br><br>    <td style="border-right: black 1pt solid; padding-right: 5.4pt; border-top: #f4f4f4; padding-left: 5.4pt; padding-bottom: 0cm; border-left: #f4f4f4; width: 3cm; padding-top: 0cm; border-bottom: black 1pt solid; height: 1pt; background-color: transparent;" width="113" valign="top"><br>      <span style="font-size: 10.5pt;" lang="EN-US"><span>+2<sup>3<strong>1</strong></sup>-1</span></span><br>    </td><br><br>    <td style="border-right: black 1pt solid; padding-right: 5.4pt; border-top: #f4f4f4; padding-left: 5.4pt; padding-bottom: 0cm; border-left: #f4f4f4; width: 77.95pt; padding-top: 0cm; border-bottom: black 1pt solid; height: 1pt; background-color: transparent;" width="104" valign="top"><br>      <span style="font-size: 10.5pt;" lang="EN-US"><span>Integer</span></span><br>    </td><br><br>    <td style="border-right: black 1pt solid; padding-right: 5.4pt; border-top: #f4f4f4; padding-left: 5.4pt; padding-bottom: 0cm; border-left: #f4f4f4; width: 70.9pt; padding-top: 0cm; border-bottom: black 1pt solid; height: 1pt; background-color: transparent;" width="95" valign="top"><br>      <span style="font-size: 10.5pt;" lang="EN-US"><span></span></span><br>    </td><br>  </tr><br><br>  <tr style="height: 1pt;"><br>    <td style="border-right: black 1pt solid; padding-right: 5.4pt; border-top: #f4f4f4; padding-left: 5.4pt; padding-bottom: 0cm; border-left: #f4f4f4; width: 70.85pt; padding-top: 0cm; border-bottom: black 1pt solid; height: 1pt; background-color: transparent;" width="94" valign="top"><br>      <span style="font-size: 10.5pt;" lang="EN-US"><span>long</span></span><br>    </td><br><br>    <td style="border-right: black 1pt solid; padding-right: 5.4pt; border-top: #f4f4f4; padding-left: 5.4pt; padding-bottom: 0cm; border-left: #f4f4f4; width: 49.6pt; padding-top: 0cm; border-bottom: black 1pt solid; height: 1pt; background-color: transparent;" width="66" valign="top"><br>      <span style="font-size: 10.5pt;" lang="EN-US"><span>64bits</span></span><br>    </td><br><br>    <td style="border-right: black 1pt solid; padding-right: 5.4pt; border-top: #f4f4f4; padding-left: 5.4pt; padding-bottom: 0cm; border-left: #f4f4f4; width: 63.8pt; padding-top: 0cm; border-bottom: black 1pt solid; height: 1pt; background-color: transparent;" width="85" valign="top"><br>      <span style="font-size: 10.5pt;" lang="EN-US"><span>-2<strong><sup>63</sup></strong></span></span><br>    </td><br><br>    <td style="border-right: black 1pt solid; padding-right: 5.4pt; border-top: #f4f4f4; padding-left: 5.4pt; padding-bottom: 0cm; border-left: #f4f4f4; width: 3cm; padding-top: 0cm; border-bottom: black 1pt solid; height: 1pt; background-color: transparent;" width="113" valign="top"><br>      <span style="font-size: 10.5pt;" lang="EN-US"><span>+2<strong><sup>63</sup></strong>-1</span></span><br>    </td><br><br>    <td style="border-right: black 1pt solid; padding-right: 5.4pt; border-top: #f4f4f4; padding-left: 5.4pt; padding-bottom: 0cm; border-left: #f4f4f4; width: 77.95pt; padding-top: 0cm; border-bottom: black 1pt solid; height: 1pt; background-color: transparent;" width="104" valign="top"><br>      <span style="font-size: 10.5pt;" lang="EN-US"><span>Long</span></span><br>    </td><br><br>    <td style="border-right: black 1pt solid; padding-right: 5.4pt; border-top: #f4f4f4; padding-left: 5.4pt; padding-bottom: 0cm; border-left: #f4f4f4; width: 70.9pt; padding-top: 0cm; border-bottom: black 1pt solid; height: 1pt; background-color: transparent;" width="95" valign="top"><br>      <span style="font-size: 10.5pt;" lang="EN-US"><span>0L/0l</span></span><br>    </td><br>  </tr><br><br>  <tr style="height: 1pt;"><br>    <td style="border-right: black 1pt solid; padding-right: 5.4pt; border-top: #f4f4f4; padding-left: 5.4pt; padding-bottom: 0cm; border-left: #f4f4f4; width: 21.3pt; padding-top: 0cm; border-bottom: black 1pt solid; height: 1pt; background-color: transparent;" rowspan="2" width="28" valign="top"><br>      <span style="font-size: 10.5pt;"><span>实数</span></span><br>    </td><br><br>    <td style="border-right: black 1pt solid; padding-right: 5.4pt; border-top: #f4f4f4; padding-left: 5.4pt; padding-bottom: 0cm; border-left: #f4f4f4; width: 70.85pt; padding-top: 0cm; border-bottom: black 1pt solid; height: 1pt; background-color: transparent;" width="94" valign="top"><br>      <span style="font-size: 10.5pt;" lang="EN-US"><span>float</span></span><br>    </td><br><br>    <td style="border-right: black 1pt solid; padding-right: 5.4pt; border-top: #f4f4f4; padding-left: 5.4pt; padding-bottom: 0cm; border-left: #f4f4f4; width: 49.6pt; padding-top: 0cm; border-bottom: black 1pt solid; height: 1pt; background-color: transparent;" width="66" valign="top"><br>      <span style="font-size: 10.5pt;" lang="EN-US"><span>32bits</span></span><br>    </td><br><br>    <td style="border-right: black 1pt solid; padding-right: 5.4pt; border-top: #f4f4f4; padding-left: 5.4pt; padding-bottom: 0cm; border-left: #f4f4f4; width: 63.8pt; padding-top: 0cm; border-bottom: black 1pt solid; height: 1pt; background-color: transparent;" width="85" valign="top"><br>      <span style="font-size: 10.5pt;" lang="EN-US"><span>IEEE754</span></span><br>    </td><br><br>    <td style="border-right: black 1pt solid; padding-right: 5.4pt; border-top: #f4f4f4; padding-left: 5.4pt; padding-bottom: 0cm; border-left: #f4f4f4; width: 3cm; padding-top: 0cm; border-bottom: black 1pt solid; height: 1pt; background-color: transparent;" width="113" valign="top"><br>      <span style="font-size: 10.5pt;" lang="EN-US"><span>IEEE754</span></span><br>    </td><br><br>    <td style="border-right: black 1pt solid; padding-right: 5.4pt; border-top: #f4f4f4; padding-left: 5.4pt; padding-bottom: 0cm; border-left: #f4f4f4; width: 77.95pt; padding-top: 0cm; border-bottom: black 1pt solid; height: 1pt; background-color: transparent;" width="104" valign="top"><br>      <span style="font-size: 10.5pt;" lang="EN-US"><span>Float</span></span><br>    </td><br><br>    <td style="border-right: black 1pt solid; padding-right: 5.4pt; border-top: #f4f4f4; padding-left: 5.4pt; padding-bottom: 0cm; border-left: #f4f4f4; width: 70.9pt; padding-top: 0cm; border-bottom: black 1pt solid; height: 1pt; background-color: transparent;" width="95" valign="top"><br>      <span style="font-size: 10.5pt;" lang="EN-US"><span>0.0F/0.0f</span></span><br>    </td><br>  </tr><br><br>  <tr style="height: 1pt;"><br>    <td style="border-right: black 1pt solid; padding-right: 5.4pt; border-top: #f4f4f4; padding-left: 5.4pt; padding-bottom: 0cm; border-left: #f4f4f4; width: 70.85pt; padding-top: 0cm; border-bottom: black 1pt solid; height: 1pt; background-color: transparent;" width="94" valign="top"><br>      <span style="font-size: 10.5pt;" lang="EN-US"><span>double</span></span><br>    </td><br><br>    <td style="border-right: black 1pt solid; padding-right: 5.4pt; border-top: #f4f4f4; padding-left: 5.4pt; padding-bottom: 0cm; border-left: #f4f4f4; width: 49.6pt; padding-top: 0cm; border-bottom: black 1pt solid; height: 1pt; background-color: transparent;" width="66" valign="top"><br>      <span style="font-size: 10.5pt;" lang="EN-US"><span>64bits</span></span><br>    </td><br><br>    <td style="border-right: black 1pt solid; padding-right: 5.4pt; border-top: #f4f4f4; padding-left: 5.4pt; padding-bottom: 0cm; border-left: #f4f4f4; width: 63.8pt; padding-top: 0cm; border-bottom: black 1pt solid; height: 1pt; background-color: transparent;" width="85" valign="top"><br>      <span style="font-size: 10.5pt;" lang="EN-US"><span>IEEE754</span></span><br>    </td><br><br>    <td style="border-right: black 1pt solid; padding-right: 5.4pt; border-top: #f4f4f4; padding-left: 5.4pt; padding-bottom: 0cm; border-left: #f4f4f4; width: 3cm; padding-top: 0cm; border-bottom: black 1pt solid; height: 1pt; background-color: transparent;" width="113" valign="top"><br>      <span style="font-size: 10.5pt;" lang="EN-US"><span>IEEE754</span></span><br>    </td><br><br>    <td style="border-right: black 1pt solid; padding-right: 5.4pt; border-top: #f4f4f4; padding-left: 5.4pt; padding-bottom: 0cm; border-left: #f4f4f4; width: 77.95pt; padding-top: 0cm; border-bottom: black 1pt solid; height: 1pt; background-color: transparent;" width="104" valign="top"><br>      <span style="font-size: 10.5pt;" lang="EN-US"><span>Double</span></span><br>    </td><br><br>    <td style="border-right: black 1pt solid; padding-right: 5.4pt; border-top: #f4f4f4; padding-left: 5.4pt; padding-bottom: 0cm; border-left: #f4f4f4; width: 70.9pt; padding-top: 0cm; border-bottom: black 1pt solid; height: 1pt; background-color: transparent;" width="95" valign="top"><br>      <span style="font-size: 10.5pt;" lang="EN-US"><span>0.0D/0.0f</span></span><br>    </td><br>  </tr><br><br>  <tr style="height: 1pt;"><br>    <td style="border-right: #f4f4f4; padding-right: 5.4pt; border-top: #f4f4f4; padding-left: 5.4pt; padding-bottom: 0cm; border-left: black 1.5pt solid; width: 14.2pt; padding-top: 0cm; border-bottom: #f4f4f4; height: 1pt; background-color: transparent;" width="19" valign="top"><br>      <p style="text-align: center;"><br>        <span style="font-size: 10.5pt;" lang="EN-US"><span> </span></span><br>      </p><br>    </td><br><br>    <td style="padding-right: 5.4pt; padding-left: 5.4pt; padding-bottom: 0cm; width: 460.7pt; padding-top: 0cm; height: 1pt; background-color: transparent; border: #f4f4f4;" colspan="8" width="614" valign="top"><br>      <p style="text-align: center;"><br>        <span style="font-size: 10.5pt;" lang="EN-US"><span> </span></span><br>      </p><br>    </td><br>  </tr><br></table>
+
+<p>需要说明的是boolean类型所占存储空间的大小没有明确指定，仅定义为能够取字面值true或false，它占用的空间取决于Java虚拟机(JVM)的实现，可能是1位也可能是1个字节。</p>
+<p>而类型可以自动转化，但需要满足的规则是byte -&gt; short(char) -&gt; int -&gt; long -&gt; float -&gt; double逐步提升。向下就得加强制转换符号。但有可能失去信息。默认的整数都是int，默认的小数都是double。要定义float以及long等类型时得加个后缀，F（小写也可以）或者L。否则编译不会通过。这也就是编译期间检查编译器会在编译期对byte、short、int、long、float、double、char型变量的值进行检查，如果超出了它们的取值范围就会报错。</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">byte</span> bb = <span class="number">1455</span>;<span class="comment">//编译过不了 eclipse会提示： Type mismatch: cannot convert from int to byte</span></span><br><span class="line"><span class="keyword">byte</span> bbb = <span class="number">12</span>;</span><br></pre></td></tr></table></figure>
+<p>并且当使用+、-、*、/、%运算符对基本类型进行运算时，遵循如下规则：</p>
+<ul>
+<li>只要两个操作数中有一个是double类型的，另一个将会被转换成double类型，并且结果也是double类型；</li>
+<li>否则，只要两个操作数中有一个是float类型的，另一个将会被转换成float类型，并且结果也是float类型；</li>
+<li>否则，只要两个操作数中有一个是long类型的，另一个将会被转换成long类型，并且结果也是long类型；</li>
+<li>否则，两个操作数（包括byte、short、int、char）都将会被转换成int类型，并且结果也是int类型。</li>
+</ul>
+<p>当使用+=、-=、*=、/=、%=、运算符对基本类型进行运算时，遵循如下规则：运算符右边的数值将首先被强制转换成与运算符左边数值相同的类型，然后再执行运算，且运算结果与运算符左边数值类型相同。这也是经常在某些面试题上出现的问题。</p>
+<p>还需要说明的是从JDK5.0开始，Java基本数据类型及其对应包装类之间能实现自动装箱解箱操作。就是说int自动装箱成Integer等。
+          <!--noindex-->
+          <div class="post-more-link text-center">
+            <a class="btn" href="/blog/java_data.html#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
+        
+      
+    </p></div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+  <link itemprop="mainEntityOfPage" href="https://www.tanglei.name/blog/soft0804_bb.html">
+
+  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="tanglei">
+    <meta itemprop="description" content>
+    <meta itemprop="image" content="/tx.jpg">
+  </span>
+
+  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+    <meta itemprop="name" content="唐磊的个人博客">
+    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
+      <img style="display:none;" itemprop="url image" alt="唐磊的个人博客" src>
+    </span>
+  </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h2 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/blog/soft0804_bb.html" itemprop="url">
+                  中南大学先进班集体标兵答辩-软件0804班视频准备final
+                </a>
+              
+            
+          </h2>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2010-12-18T07:41:06+00:00">
+                2010-12-18
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/社会工作/" itemprop="url" rel="index">
+                    <span itemprop="name">社会工作</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/blog/soft0804_bb.html#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count" data-disqus-identifier="blog/soft0804_bb.html" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+          我们来自五湖四海，我们相聚中南热土，我们共同构建理想的家园。中南大学软件学院0804班是一个优秀的独一无二的班集体，现有班级成员27人，其中女生5人，男生22人。自入学以来，在领导及老师的关怀帮助和班级成员的不懈努力下，我们锐意进取，共创辉煌。
+唐磊：尊敬的评委老师，亲爱的同学们。
+齐声：大家下午好
+          ...
+          <!--noindex-->
+          <div class="post-more-link text-center">
+            <a class="btn" href="/blog/soft0804_bb.html#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+  </section>
+
+  
+  <nav class="pagination">
+    <a class="extend prev" rel="prev" href="/page/49/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/49/">49</a><span class="page-number current">50</span><a class="page-number" href="/page/51/">51</a><span class="space">&hellip;</span><a class="page-number" href="/page/53/">53</a><a class="extend next" rel="next" href="/page/51/"><i class="fa fa-angle-right"></i></a>
+  </nav>
+
+
+
+          </div>
+          
+
+
+          
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+
+      <section class="site-overview sidebar-panel sidebar-panel-active">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image" src="/tx.jpg" alt="tanglei">
+          <p class="site-author-name" itemprop="name">tanglei</p>
+          <p class="site-description motion-element" itemprop="description">码农 @ 阿里云, 毕业于CSU && THU,  曾工作于大疆(DJI), 宜信大数据创新中心, <a href="http://www.tencent.com/zh-cn/index.shtml" target="_blank">腾讯</a> && <a href="http://www.umeng.com/" target="_blank">友盟</a>.  &nbsp; <a href="/about/"> MORE </a></p>
+        </div>
+        <nav class="site-state motion-element">
+        
+          
+            <div class="site-state-item site-state-posts">
+              <a href="/archives">
+                <span class="site-state-item-count">420</span>
+                <span class="site-state-item-name">日志</span>
+              </a>
+            </div>
+          
+
+          
+            <div class="site-state-item site-state-categories">
+              <a href="/categories">
+                <span class="site-state-item-count">13</span>
+                <span class="site-state-item-name">分类</span>
+              </a>
+            </div>
+          
+
+          
+            <div class="site-state-item site-state-tags">
+              <a href="/tags">
+                <span class="site-state-item-count">135</span>
+                <span class="site-state-item-name">标签</span>
+              </a>
+            </div>
+          
+
+        </nav>
+
+        
+          <div class="feed-link motion-element">
+            <a href="/atom.xml" rel="alternate">
+              <i class="fa fa-rss"></i>
+              RSS
+            </a>
+          </div>
+        
+
+        <div class="links-of-author motion-element">
+          
+            
+              <span class="links-of-author-item">
+                <a href="/resources/tl3shi-wechat.png" target="_blank" title="Wechat">
+                  
+                    <i class="fa fa-fw fa-weixin"></i>
+                  
+                  Wechat
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="https://github.com/tl3shi" target="_blank" title="GitHub">
+                  
+                    <i class="fa fa-fw fa-github"></i>
+                  
+                  GitHub
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="http://weibo.com/tangleithu" target="_blank" title="Weibo">
+                  
+                    <i class="fa fa-fw fa-weibo"></i>
+                  
+                  Weibo
+                </a>
+              </span>
+            
+          
+        </div>
+
+        
+        
+
+        
+        
+
+        
+
+
+      </section>
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">
+  
+  &copy;  2010 - 
+  <span itemprop="copyrightYear">2020</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">tanglei</span>
+   
+  <span class="author" itemprop="copyrightHolder">
+      - 渝ICP备16013386号 
+  </span>
+ 
+</div>
+
+
+<div class="powered-by">
+  由 <a class="theme-link" href="https://hexo.io">Hexo</a> 强力驱动
+</div>
+
+<div class="theme-info">
+  主题 -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.Mist
+  </a>
+</div>
+
+
+        
+
+        
+      </div>
+    </footer>
+
+    <div class="back-to-top">
+      <i class="fa fa-arrow-up"></i>
+    </div>
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.0"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.0"></script>
+
+
+
+  
+  
+
+  
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.0"></script>
+
+
+
+  
+
+
+
+  
+
+    <script type="text/javascript">
+      var disqus_shortname = 'hexo-tanglei';
+      var disqus_identifier = 'page/50/index.html';
+
+      var disqus_title = "";
+
+
+      function run_disqus_script(disqus_script) {
+        var dsq = document.createElement('script');
+        dsq.type = 'text/javascript';
+        dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      }
+
+      run_disqus_script('count.js');
+
+      
+
+    </script>
+  
+
+
+
+
+
+
+
+  
+  
+
+  
+
+  
+
+  
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+
+
+  
+
+
+</body>
+</html>
